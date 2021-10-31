@@ -91,139 +91,201 @@ indecoco(video.views)
 >206,05,54,580
 
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(1000000000000)
-
 decoco(1000000000000)
+
+indeco(1000000000000)
+indecoco(1000000000000)
 ```
+>1T 000B 000M 000K 000
+>
+>1,000,000,000,000
+>
 >1T 000B 000M 000K 000
 >
 >1,000,000,000,000
 
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(100000000000)
-
 decoco(100000000000)
+
+indeco(100000000000)
+indecoco(100000000000)
 ```
 >100B 000M 000K 000
 >
 >100,000,000,000
-
+>
+>10000C 00L 00T 000
+>
+>10000,00,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(10000000000)
-
 decoco(10000000000)
+
+indeco(10000000000)
+indecoco(10000000000)
 ```
 >10B 000M 000K 000
 >
 >10,000,000,000
-
+>
+>1000C 00L 00T 000
+>
+>1000,00,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(1000000000)
-
 decoco(1000000000)
+
+indeco(1000000000)
+indecoco(1000000000)
 ```
 >1B 000M 000K 000
 >
 >1,000,000,000
-
+>
+>100C 00L 00T 000
+>
+>100,00,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(100000000)
-
 decoco(100000000)
+
+indeco(100000000)
+indecoco(100000000)
 ```
 >100M 000K 000
 >
 >100,000,000
-
+>
+>10C 00L 00T 000
+>
+>10,00,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(10000000)
-
 decoco(10000000)
+
+indeco(10000000)
+indecoco(10000000)
 ```
 >10M 000K 000
 >
->10,000,000 
-
+>10,000,000
+>
+>1C 00L 00T 000
+>
+>1,00,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(1000000)
-
 decoco(1000000)
+
+indeco(1000000)
+indecoco(1000000)
 ```
 >1M 000K 000
 >
 >1,000,000
-
+>
+>10L 00T 000
+>
+>10,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(100000)
-
 decoco(100000)
+
+indeco(100000)
+indecoco(100000)
 ```
 >100K 000
 >
->100,000 
-
+>100,000
+>
+>1L 00T 000
+>
+>1,00,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(10000)
-
 decoco(10000)
+
+indeco(10000)
+indecoco(10000)
 ```
 >10K 000
 >
 >10,000 
-
+>
+>10T 000
+>
+>10,000
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(1000)
-
 decoco(1000)
+
+indeco(1000)
+indecoco(1000)
 ```
 >1K 000
 >
 >1,000  
-
+>
+>1T 000
+>
+>1,000 
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(100)
-
 decoco(100)
+
+indeco(100)
+indecoco(100)
 ```
 >0.1K
 >
 >0.100  
-
+>
+>0.1T
+>
+>0.100  
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(10)
-
 decoco(10)
+
+indeco(10)
+indecoco(10)
+
 ```
 >0.01K
 >
 >0.010  
-
+>
+>0.01T
+>
+>0.010  
 ```
-from numdeco import deco, decoco
+from numdeco import deco, decoco, indeco, indecoco
 
 deco(1)
 decoco(1)
