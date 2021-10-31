@@ -103,9 +103,9 @@ indecoco(1000000000000)
 >
 >1,000,000,000,000
 >
->1T 000B 000M 000K 000
+>100000C 00L 00T 000
 >
->1,000,000,000,000
+>100000,00,00,000
 
 ```
 from numdeco import deco, decoco, indeco, indecoco
