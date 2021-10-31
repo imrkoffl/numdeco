@@ -1,5 +1,6 @@
 # numdeco
 Number Decorator (numdeco)
+
 ```
 #importing libaries
 from numdeco import deco, decoco, indeco, indecoco
