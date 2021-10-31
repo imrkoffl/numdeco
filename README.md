@@ -2,6 +2,33 @@
 Number Decorator (numdeco)
 
 ```
+#importing libraries 
+from numdeco import deco, decoco
+from pytube import YouTube
+
+#YouTube Link
+ytLink = 'https://youtu.be/7wtfhZwyrcc'
+video = YouTube(ytLink)
+
+#video name and real time views
+print(str(video.title)+'\n'+'Real time views : '+str(video.views))
+
+#video views using deco
+deco(video.views)
+
+#video views using decoco
+decoco(video.views)
+```
+
+>Imagine Dragons - Believer
+>
+>Real time views : 2060472087
+>
+>2B 060M 472K 087
+>
+>2,060,472,087
+
+```
 from numdeco import deco, decoco
 
 deco(1000000000000)
